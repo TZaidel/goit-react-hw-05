@@ -1,0 +1,23 @@
+.list {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 20px;
+	justify-content: center;
+	padding-top: 20px;
+}
+
+.item {
+	width: 200px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+}
+
+img {
+	border-right: 1px solid rgba(185, 185, 185, 0.57);
+	border-bottom: 1px solid rgba(185, 185, 185, 0.57);
+}
+
+.character {
+	color: rgb(185, 185, 185);
+}

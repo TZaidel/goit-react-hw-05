@@ -1,0 +1,50 @@
+.Wrap__Container {
+	display: flex;
+	gap: 20px;
+	align-items: center;
+	padding: 60px;
+	justify-content: center;
+}
+
+.Wrap__Text {
+	width: 400px;
+}
+
+.Title {
+	margin-bottom: 30px;
+	color: #535bf2;
+	font-size: 30px;
+}
+
+.Overview {
+	border-top: 1px dotted rgba(185, 185, 185, 0.57);
+	border-bottom: 1px dotted rgba(185, 185, 185, 0.57);
+	padding: 40px;
+}
+
+.List {
+	color: 1px dotted rgba(185, 185, 185, 0.57);
+	font-size: 14px;
+	display: flex;
+	justify-content: space-around;
+}
+
+.Additional {
+	&__List {
+		display: flex;
+		gap: 20px;
+		justify-content: center;
+		padding: 40px;
+		border-top: 1px solid #535bf2;
+
+		& a {
+			color: rgb(185, 185, 185);
+			border-bottom: 1px solid rgba(185, 185, 185, 0.57);
+			padding: 10px 20px;
+
+			&:hover {
+				color: #535bf2;
+			}
+		}
+	}
+}

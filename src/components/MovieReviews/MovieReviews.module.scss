@@ -1,0 +1,32 @@
+.list {
+	max-width: 1000px;
+}
+
+.item {
+	margin-bottom: 40px;
+}
+
+.wrap {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0 20px;
+}
+.title {
+	font-size: 18px;
+	text-align-last: left;
+	margin: 0;
+	border-bottom: 1px solid #535bf2;
+	padding: 0 50px 0 20px;
+}
+
+.update {
+	font-size: 12px;
+	color: rgb(185, 185, 185);
+}
+.content {
+	font-size: 14px;
+	margin: 0;
+	text-align: left;
+	color: rgb(185, 185, 185);
+}
