@@ -1,6 +1,6 @@
 import { useParams, Link, Outlet, useLocation } from 'react-router-dom';
 import { fetchMovieById } from '../../api.js';
-import { useState, useEffect, useRef } from 'react';
+import { useState, useEffect, useRef, Suspense } from 'react';
 import React from 'react';
 import css from './MovieDetailsPage.module.scss';
 
@@ -52,8 +52,10 @@ export default function MovieDetailsPage() {
 						<Link to='reviews'>Reviews</Link>
 					</li>
 				</ul>
-				<Outlet />
 			</div>
+			<Suspense fallback={<p>Loading...</p>}>
+				<Outlet />
+			</Suspense>
 		</div>
 	);
 }
